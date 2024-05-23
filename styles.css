@@ -1,0 +1,40 @@
+.h1 {
+  text-align: center;
+}
+
+.clippy {
+  width: 50px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-play-state: running;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(25px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  75% {
+    transform: translateX(75px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+/* @keyframes move {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 58%;
+  }
+  100% {
+    left: 0;
+  }
+} */
